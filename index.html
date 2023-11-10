@@ -1,16 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+
     <title>Document</title>
-</head>
-<body>
-    <ul>
-        <li><a href="./paginas/vision.html">Vision</li>
-        <li><a href="./paginas/productos.html">Productos</li>
-        <li><a href="./paginas/contacto.html">Contacto</li>
-    </ul>   
-    
-</body>
+  </head>
+  <body>
+    <header class="nav">
+      <img src="./imagenes/menu.svg" alt="menu" class="menu" />
+    </header>
+    <nav>
+      <div class="navbar-left">
+        <img src="./imagenes/logo.jpg" alt="logo" class="logo" />
+
+        <ul>
+          <li>
+            <a href="././paginas/vision.html">Visión</a>
+          </li>
+          <li>
+            <a href="./paginas/productos.html">Productos</a>
+          </li>
+          <li>
+            <a href="./paginas/servicios.html">Servicios</a>
+          </li>
+
+          <li>
+            <a href="./paginas/contacto.html">Contaccto</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navbar-right">
+        <ul>
+          <li class="navbar-email">enko@hothot.com</li>
+          <li class="navbar-shopping-cart">
+            <img src="./imagenes/shopping_cart.svg" alt="shopping cart" />
+            <div></div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="portafolio">
+      <h1>Nuestro Portafolio</h1>
+      <div class="portafolio-container">
+        <section class="portafolio-item">
+          <img src="./imagenes/venta.jpg" alt="" class="portafolio-img" />
+          <section class="portafolio-text">
+            <h2>venta</h2>
+            <p>
+              Esto incluye computadoras de escritorio, computadoras portátiles,
+              servidores, dispositivos periféricos (como impresoras, escáneres,
+              etc.) y software.
+            </p>
+          </section>
+        </section>
+        <section class="portafolio-item">
+          <img src="./imagenes/ensamble.jpeg" alt="" class="portafolio-img" />
+          <section class="portafolio-text">
+            <h2>Ensamble</h2>
+            <p>
+              Los clientes pueden solicitar computadoras a medida según sus
+              necesidades específicas, y la empresa puede ensamblar y configurar
+              estas computadoras personalizadas.
+            </p>
+          </section>
+        </section>
+        <section class="portafolio-item">
+          <img
+            src="./imagenes/mantenimiento.jpeg"
+            alt=""
+            class="portafolio-img"
+          />
+          <section class="portafolio-text">
+            <h2>Mantenimiento</h2>
+            <p>
+              Realización de revisiones periódicas y mantenimiento preventivo en
+              equipos de cómputo para asegurarse de que funcionen de manera
+              óptima y para evitar problemas futuros.
+            </p>
+          </section>
+        </section>
+      </div>
+    </section>
+    <footer class="contacto">
+      <ul class="contacto-info">
+        <li>H Y S LTDA con NIT 500.666.777-1</li>
+        <li>Calle 163 No 12-25 Bogotá</li>
+        <li>Teléfono 369874</li>
+        <li>Sucursales a nivel nacional</li>
+      </ul>
+    </footer>
+  </body>
 </html>
